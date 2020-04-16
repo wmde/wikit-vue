@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import Button from './Button.vue'
+import WikitButton from './Button.vue'
 
 const components = {
-  Button
+  WikitButton
 }
 
 
