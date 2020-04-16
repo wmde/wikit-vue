@@ -8,7 +8,4 @@ export default {
   component: WikitButton,
 };
 
-export const Primary = () => ({
-  components: { WikitButton },
-  template: '<wikit-button>Click Me</button>'
-});
+export const Primary = () => '<wikit-button>Click Me</wikit-button>';

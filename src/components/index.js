@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import WikitButton from './Button.vue'
+import WikitButton from './WikitButton.vue'
 
 const components = {
   WikitButton
