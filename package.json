@@ -2,10 +2,16 @@
   "name": "wikit",
   "version": "0.1.0",
   "private": true,
+  "main": "./dist/wikit/common.js",
+  "files": [
+    "dist/*",
+    "src/components/*"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "build:bundle": "vue-cli-service build --target lib --name wikit src/components/index.js",
     "build:tokens": "npm run clean:tokens && style-dictionary build",
     "clean:tokens": "style-dictionary clean"
   },
