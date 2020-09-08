@@ -1,3 +1,5 @@
+This was a prototype built in early 2020. The actual Design System implementation is developed in [wmde/wikit](https://github.com/wmde/wikit) repository.
+
 # wikit
 
 ## Project setup
